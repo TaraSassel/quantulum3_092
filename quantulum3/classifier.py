@@ -290,7 +290,7 @@ def disambiguate_entity(key, text, lang="en_US", classifier_path=None):
         try:
             new_ent = entities_.names[scores[0][1]]
         except IndexError:
-            _LOGGER.debug('\tAmbiguity not resolved for "%s"', str(key))
+            _LOGGER.debug('\tEntity Ambiguity not resolved for "%s" %s', (str(key), scores))
 
     return new_ent
 
@@ -329,7 +329,7 @@ def disambiguate_unit(unit, text, lang="en_US", classifier_path=None):
             final = units_.names[scores[0][1]]
             _LOGGER.debug('\tAmbiguity resolved for "%s" (%s)' % (unit, scores))
         except IndexError:
-            _LOGGER.debug('\tAmbiguity not resolved for "%s"' % unit)
+            _LOGGER.debug('\tUnit Ambiguity not resolved for "%s" %s' % (unit, scores))
             final = next(iter(new_unit))
     else:
         final = next(iter(new_unit))
