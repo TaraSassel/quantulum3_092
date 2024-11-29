@@ -5,9 +5,9 @@ name = "pypi"
 
 [packages]
 inflect = "*"
-numpy = "*"
+numpy = "==1.24.4"
 scipy = "*"
-scikit-learn = "*"
+scikit-learn = "==1.1.0"
 wikipedia = "*"
 stemming = "*"
 num2words = "*"

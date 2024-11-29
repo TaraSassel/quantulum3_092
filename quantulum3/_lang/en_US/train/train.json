@@ -37,9 +37,6 @@
     {"text": "A game of some sports is often delimited to a certain length, up to {quantity}", "unit": "minute"},
     {"text": "The weather is crazy these days. Its been {quantity} for days", "unit": "degree Celsius"},
     {"text": "It sure is warm outside. Almost {quantity}", "unit": "degree Celsius"},
-    {"text": "The last days were freezingly cold. It's {quantity} now!", "unit": "degree Celsius"},
-    {"text": "Automobile loan emissions: {quantity} tCO2e.","unit": "tCO2e"},
-    {"text": "Invoiced quantities & self-generated Scope 1 GHG Emissions {quantity} Metric tonnes of carbon dioxide equivalent (tCO2e)","unit": "tCO2e"},
-    {"text": "We estimate the life cycle emissions associated with our use of renewable electricity for our corporate facilities to be about {quantity} metric tons CO2e.","unit": "tCO2e"}
+    {"text": "The last days were freezingly cold. It's {quantity} now!", "unit": "degree Celsius"}
 
 ]
