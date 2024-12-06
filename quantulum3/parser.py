@@ -16,7 +16,6 @@ from . import language, load
 from . import regex as reg
 
 _LOGGER = logging.getLogger(__name__)
-_LOGGER.setLevel(logging.DEBUG)
 
 def _get_parser(lang="en_US"):
     """
