@@ -210,8 +210,8 @@ def parse_unit(_, unit, slash):
     """
 
     surface = unit.replace(".", "")
-    # if surface in load.units(lang).surfaces.keys():
-    #     return surface, 1
+    if surface in load.units(lang).surfaces.keys():
+        return surface, 1
     power = re.findall(r"-?[0-9%s]+" % reg.unicode_superscript_regex(), surface)
     power_written = re.findall(r"\b(%s)\b" % "|".join(reg.powers(lang)), surface)
 
