@@ -17,7 +17,6 @@ from . import regex as reg
 
 _LOGGER = logging.getLogger(__name__)
 
-
 def _get_parser(lang="en_US"):
     """
     Get parser module for given language
@@ -231,9 +230,9 @@ def get_unit_from_dimensions(dimensions, text, lang="en_US", classifier_path=Non
     """
     Reconcile a unit based on its dimensionality.
     """
-
+    _LOGGER.debug(f"These are the dimensions: {dimensions}")
     key = load.get_key_from_dimensions(dimensions)
-
+    _LOGGER.debug(f"This is the key: {key}")
     try:
         unit = load.units(lang).derived[key]
     except KeyError:

@@ -15,7 +15,6 @@ from .load import COMMON_WORDS
 
 _LOGGER = logging.getLogger(__name__)
 
-
 ###############################################################################
 def clean_surface(surface, span):
     """
@@ -459,7 +458,7 @@ def build_quantity(
         )
         objs.append(obj)
 
-    print('build_quantity:', objs)
+    _LOGGER.debug(f'build_quantity: {objs}')
     return objs
 
 
