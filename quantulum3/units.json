@@ -4335,16 +4335,24 @@
   },
   "tco2e" : {
     "surfaces" : [
-      "tco2e", "co2e", "tco2"
+      "tonnes of CO2 equivalent", 
+      "tones of CO2 equivalent", 
+      "tonnes of carbon dioxide equivalent", 
+      "tones of carbon dioxide equivalent",
+      "metric tonnes of carbon dioxide equivalent", 
+      "metric tones of carbon dioxide equivalent",
+      "metric tons CO2e",
+      "mtco2e",
+      "tco2e",
+      "co2e",
+      "tco2",
+      "tco2-eq"
     ],
     "entity" : "global warming potential",
     "URI" : "tco2e",
     "symbols" : [
       "TCO2e"
     ],
-    "dimensions": [],
-    "prefixes" : [
-      "k", "M", "G"
-    ]
+    "dimensions": []
   }
 }
