@@ -4360,5 +4360,29 @@
       "no. of employees"
     ],
     "dimensions": []
+  },
+  "no. of employees" : {
+    "surfaces" : [
+      "headcount",
+      "employee",
+      "persons",
+      "worker",
+      "staff",
+      "men",
+      "women",
+      "total employee",
+      "total people",
+      "global employee",
+      "people employed",
+      "no. of employee",
+      "# of employee",
+      "staff number"
+    ],
+    "entity" : "dimensionless",
+    "URI" : "Employee",
+    "symbols" : [
+      "employees"
+    ],
+    "dimensions": []
   }
 }
