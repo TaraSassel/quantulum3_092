@@ -4335,23 +4335,29 @@
   },
   "tco2e" : {
     "surfaces" : [
-      "tonnes of CO2 equivalent", 
-      "tones of CO2 equivalent", 
-      "tonnes of carbon dioxide equivalent", 
-      "tones of carbon dioxide equivalent",
-      "metric tonnes of carbon dioxide equivalent", 
-      "metric tones of carbon dioxide equivalent",
-      "metric tons CO2e",
-      "mtco2e",
-      "tco2e",
-      "co2e",
-      "tco2",
-      "tco2-eq"
-    ],
+      "tonne of carbon", "ton of carbon", 
+      "tonne of co2", "ton of co2",
+      "tonne of co2-equivalent", "ton of co2-equivalent",
+      "metric tonne of carbon", "metric ton of carbon", 
+      "metric tonne of co2e", "metric ton of co2e",
+      "metric ton co2e", "tco2 eq", "co2 equivalent", "co2-equivalent", 
+      "co2 eq", "mtco2e", "tco2e", "tco2eq", "tco2", "mtco2", "co2e", "co2eq", "co2"
+  ],
     "entity" : "global warming potential",
     "URI" : "tco2e",
     "symbols" : [
-      "TCO2e"
+      "TCO2e", "MtCO2e", "tCO2", "CO2e", "tCO2eq"
+    ],
+    "dimensions": []
+  },
+  "employees" : {
+    "surfaces" : [
+      "employees"
+    ],
+    "entity" : "dimensionless",
+    "URI" : "Employee",
+    "symbols" : [
+      "no. of employees"
     ],
     "dimensions": []
   }
