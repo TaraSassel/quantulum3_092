@@ -4350,17 +4350,6 @@
     ],
     "dimensions": []
   },
-  "employees" : {
-    "surfaces" : [
-      "employees"
-    ],
-    "entity" : "dimensionless",
-    "URI" : "Employee",
-    "symbols" : [
-      "no. of employees"
-    ],
-    "dimensions": []
-  },
   "no. of employees" : {
     "surfaces" : [
       "headcount",
@@ -4375,7 +4364,8 @@
       "no. of employee",
       "# of employee",
       "staff number",
-      "full-time"
+      "full-time",
+      "full time"
     ],
     "entity" : "dimensionless",
     "URI" : "Employee",
